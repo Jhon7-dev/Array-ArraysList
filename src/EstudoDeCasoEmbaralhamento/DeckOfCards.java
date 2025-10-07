@@ -38,6 +38,7 @@ public class DeckOfCards {
 
 			Card temp = deck[first];
 			deck[first] = deck[second];
+			deck[second] = temp;
 		}
 
 	}
