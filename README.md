@@ -169,7 +169,13 @@ Esta é a classe que gerencia a coleção das 52 cartas.
 
 Construtor: Inicializa o array deck e o preenche com 52 objetos Card válidos, combinando todas as faces e naipes. A lógica de inicialização usa os operadores módulo (%) e divisão (/) para mapear corretamente os 13 faces e 4 naipes.
 
-shuffle(): Implementa o algoritmo de embaralhamento. ⚠️ Nota: O loop dentro do método shuffle() está incompleto (falta a linha que completa a troca dos valores), o que pode levar a resultados incorretos.
+Esta é a classe que gerencia a coleção das 52 cartas.
+
+Construtor: Inicializa o array deck e o preenche com 52 objetos Card válidos.
+
+shuffle(): Embaralhamento Completo: Implementa corretamente o algoritmo de troca (swap) de elementos para randomizar a ordem das cartas em uma única passagem, garantindo um baralho funcionalmente embaralhado.
+
+dealCard(): Distribui a próxima carta do topo do baralho e incrementa o índice currentCard. Retorna null se o baralho estiver vazio.
 
 dealCard(): Distribui a próxima carta do topo do baralho e incrementa o índice currentCard.
 
